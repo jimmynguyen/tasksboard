@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "api:expressjs": "cd api/expressjs && node app.js",
-    "ui:html": "cd ui/html && http-server"
+    "api:expressjs": "cd api/expressjs && yarn start",
+    "ui:htmljs": "cd ui/htmljs && yarn start"
   },
   "repository": {
     "type": "git",
@@ -16,8 +16,6 @@
     "url": "https://github.com/jimmynguyen/tasksboard/issues"
   },
   "homepage": "https://github.com/jimmynguyen/tasksboard#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "cors": "^2.8.5"
-  }
+  "dependencies": {},
+  "devDependencies": {}
 }
