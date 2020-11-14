@@ -1,0 +1,81 @@
+{
+  "boards": [
+    {
+      "id": 0,
+      "name": "My Main Board",
+      "order": 0,
+      "list_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": 1,
+      "name": "My Other Board",
+      "order": 1,
+      "list_ids": [
+        2
+      ]
+    }
+  ],
+  "lists": [
+    {
+      "id": 0,
+      "name": "My Tasks",
+      "order": 0,
+      "task_ids": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": 1,
+      "name": "My Other Tasks",
+      "order": 1,
+      "task_ids": [
+        3
+      ]
+    },
+    {
+      "id": 2,
+      "name": "My Other Board's Tasks",
+      "order": 0,
+      "task_ids": [
+        4
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": 0,
+      "name": "Create board",
+      "order": 0,
+      "complete": false
+    },
+    {
+      "id": 1,
+      "name": "Create list",
+      "order": 1,
+      "complete": false
+    },
+    {
+      "id": 2,
+      "name": "Create task",
+      "order": 2,
+      "complete": false
+    },
+    {
+      "id": 3,
+      "name": "Create more boards",
+      "order": 0,
+      "complete": false
+    },
+    {
+      "id": 4,
+      "name": "Create more lists",
+      "order": 0,
+      "complete": false
+    }
+  ]
+}
